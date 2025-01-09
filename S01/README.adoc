@@ -1,0 +1,15 @@
+== SO1
+
+=== 2025-01-08
+* Présentation du plan de l'activité (IFT723_2025-1.pdf)
+* Perspective historique et scientifique de la théorie relationnelle
+* Organisation des devoirs
+* Annonce du projet
+* Lectures
+  - TMR_01-Rappels (au besoin)
+  - TMR_01-Introduction
+    *** Critères d’adéquation
+    *** Caractérisation des problèmes de données par les huit «V»
+
+=== 2025-01-09
+* Présentation de la théorie relationnelle (TMR_02-Fondements)
