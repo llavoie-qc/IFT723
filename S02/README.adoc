@@ -3,7 +3,7 @@
 === 2025-01-15
 * Présentation du solutionnaire de l’auto-évaluation (MCED_AE_N1)
 
-=== 2025-01-09
+=== 2025-01-16
 * Rappels
   - Traitement des données manquantes (TMR_07-Donnees_manquantes)
   - Normalisation (MLR_01-Normalisation)
