@@ -1,0 +1,11 @@
+== S02
+
+=== 2025-01-15
+* Présentation du solutionnaire de l’auto-évaluation (MCED_AE_N1)
+
+=== 2025-01-09
+* Rappels
+  - Traitement des données manquantes (TMR_07-Donnees_manquantes)
+  - Normalisation (MLR_01-Normalisation)
+  - Gestion des clés (SQL_07-Gestion-des-clés)
+* Organisation des équipes de projet
