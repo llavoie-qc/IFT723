@@ -1,0 +1,9 @@
+== S06
+
+=== 2025-02-11
+* Présentation de la synthèse sur la normalisation.
+
+=== 2025-02-13
+* Présentation de l’énoncé du travail de session.
+* Tenue de l’atelier portant sur l’énoncé préliminaire de portée (EPP) du travail de session.
+* Mise à disposition d’un exemple d’EPP simple et incomplet.

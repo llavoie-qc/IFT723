@@ -1,0 +1,55 @@
+== IFT723_2025-1_TS
+
+Notes de l’atelier du 2025-02-13
+
+
+=== Itération 1 (Cas d’apprentissage)
+
+.Plan
+1. Sujet/domaine
+2. Problème
+
+.Recommandations
+* Connaissance du domaine
+* Problème à portée limitée et connue
+* Choix consensuel
+* Sources de données
+  - [#1] publiques et libres de droits, facilement accessibles, intégrables, etc.
+  - [#2] pouvant être engendrées facilement, semi-automatiquement en quantités suffisantes, etc.
+
+.Pistes
+* A : Traçabilité des produits alimentaires
+  - hypothèse de bienveillance
+  - hypothèse de modélisation unique
+* B : Traçabilité du parcours des membres au sein d’une organisation
+  - organisation gouvernementale, publique, privée, générale ou à but non lucratif
+  - fonctionnalités à choisir
+* C : Réseaux d’entrepôts
+  - hors logistique du transport
+  - hors détermination de l’emplacement en entrepôt
+
+=== Itération 2 (EPP)
+
+1. Mise en contexte
+2. Périmètre du problème
+3. Exemples d’usage
+  * Intrants
+    - histoires de cas
+    - cas d’utilisation
+    - processus métiers
+    - etc.
+  * Extrants
+    - besoins
+    - fonctionnalités
+    - requêtes
+    - etc.
+4. Esquisse de modèle
+  * modèle ontologique, entité-association ou relationnel
+  * prédicats
+  * types (dictionnaire de données)
+5. Planification
+  * délais et jalons
+  * méthode de travail
+  * ressources disponibles
+  * ressources requises
+  * niveau de qualité (d’achèvement, de couverture…)
