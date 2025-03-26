@@ -1,0 +1,15 @@
+
+* Types +
+  https://doc.postgresql.fr/17/rangetypes.html
+* Opérateurs +
+  https://docs.postgresql.fr/17/functions-range.html
+* Index +
+  https://docs.postgresql.fr/17/sql-createindex.html
+* Index GiST +
+  https://docs.postgresql.fr/17/gist.html
+* Contrainte EXCLUDE +
+  https://docs.postgresql.fr/17/sql-createtable.html
+* btree_gist +
+  https://docs.postgresql.fr/17/btree-gist.html
+* GiST +
+  http://www.sai.msu.su/~megera/postgres/gist/
