@@ -1,0 +1,121 @@
+// Signature du document
+:organisation: CoLOED
+:copyright: CoLOED
+:entrepot: CoLOED
+:depot: Scriptorum
+:!branche:
+:sigle: {organisation}:CoSQL_SCL
+:titre: CoSQL - environnement SQL commun du CoLOED
+:sous_titre: Présentation générale
+:keywords: SQL
+:revnumber: 1.0.3a
+:revdate: 2024-08-12
+:version-label: version interne, ne pas citer à l’externe
+:author: Luc Lavoie
+:email: luc.lavoie@usherbrooke.ca
+
+// Contexte de support du document
+include::../../../../rep_CoLOED_AsciiDoc.adoc[]
+
+// Définitions locales
+:CoSQL_source: ../src/sql
+:CoSQL_test: ../test/sql
+
+// Type du document
+include::{rep_format}/RAPPORT_en-tete.adoc[]
+
+// Préliminaires
+include::{rep_format}/SOMMAIRE.adoc[]
+CoSQL est l’environnement SQL commun du CoLOED.
+Il comprrend les sous-composants suivantes :
+
+* "Base" :
+  un ensemble de types de base prédéfinis,
+  les opérateurs logique d’implication et d’équivalence et
+  un opérateur d’égalité relationnelle.
+* "Verif" :
+  des routines de gestion des assertions .
+* "IMEX" :
+  des routines d’import-export de fichiers au droit du serveur.
+* "Param" :
+  des routines de gestion de paramètres internes propres à la BD.
+
+include::{rep_format}/MISE_EN_GARDE.adoc[]
+Le présent document est en cours de révision ;
+en conséquence, il est incomplet et peut contenir des erreurs.
+
+include::{rep_format}/HISTO_debut.adoc[]
+
+| 2024-08-12
+| LL
+| Intégration initiale de la documentation.
+
+include::{rep_format}/HISTO_fin.adoc[]
+
+<<<
+toc::[]
+
+// Corps du document
+<<<
+[introduction]
+== Introduction
+include::{CoSQL_source}/001_CoSQL_def.sql[lines=2..-1]
+////
+
+<<<
+== Base
+include::{CoSQL_source}/011_CoSQL_Base_pub.sql[lines=2..-1]
+////
+
+include::{CoSQL_source}/012_CoSQL_Base_pub-rel.sql[lines=2..-1]
+////
+
+== Verif
+include::{CoSQL_source}/016_CoSQL_Verif_pub.sql[lines=2..-1]
+////
+
+=== Éléments obsolètes
+include::{CoSQL_source}/017_CoSQL_Verif_pub.obs.sql[lines=2..-1]
+////
+
+== Param
+include::{CoSQL_source}/022_CoSQL_Param_pub.sql[lines=2..-1]
+////
+
+== IMEX
+include::{CoSQL_source}/031_CoSQL_IMEX_pub.sql[lines=2..-1]
+////
+
+include::{CoSQL_source}/032_CoSQL_IMEX_pub-par.sql[lines=2..-1]
+////
+
+<<<
+[conclusion]
+== Conclusion
+Une consultation doit être entreprise avant la pulication du composant afin
+de déterminer son adéquation et les prolongements souhaitables.
+
+Plus particulièrement, les aspects suivants doivent être approuvés :
+
+* l'utilisation des identificateurs délimités ;
+* le choix des dénomination des routines du sous-composant "Param"
+  (non conforme aux resommandatios de STD-ENV-01) ;
+* la forme et le contenu de la documentation.
+
+<<<
+[appendix]
+== Correctifs récents
+La présente annexe comprend la liste des correctifs récemment appliqués.
+
+include::{CoSQL_test}/010_CoSQL_Base_tu.sql[lines=2..-1]
+////
+
+////
+<<<
+[glossary]
+== Glossaire
+[.red]#!!! À rédiger !!!#
+////
+
+// Fin du document
+include::{rep_format}/RAPPORT_en-pied.adoc[]

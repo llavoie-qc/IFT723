@@ -1,0 +1,175 @@
+// Signature du document
+:organisation: CoLOED
+:copyright: CoLOED
+:entrepot: CoLOED
+:depot: SQL
+:!branche:
+:sigle: {organisation}:CoSQL_2024-2_Mandats
+:titre: Projet CoSQL_2024-2 : mandats prévus
+:sous_titre: (depuis l’automne 2022)
+:keywords: UHF, mandats, activités, affectation
+:revnumber: 0.1.0.a
+:revdate: 2024-08-12
+:version-label: version interne, ne pas citer à l’externe
+:author: Luc Lavoie
+:email: luc.lavoie@usherbrooke.ca
+
+// Contexte requis par la Convention d’utilisation d’AsciiDoc au sein de CoLOED
+include::../../../../../rep_CoLOED_AsciiDoc.adoc[]
+
+// Format du document
+ifndef::format_effectif[:format_effectif: RAPPORT]
+include::{rep_format}/{format_effectif}_en-tete.adoc[]
+
+// Préliminaires du document (sommaire, mise en garde, historique, etc.)
+
+include::{rep_format}/SOMMAIRE.adoc[]
+Inventaire et planification sommaire des mandats relatifs au projet de
+développement initial du composant CoSQL pour le CoLOED.
+
+Ce projet, CoSQL_2024-2, a débuté en juillet 2024 et doit se terminer au plus tard en novembre 2024.
+Il consiste à regrouper, refondre et étendre les environnements SQL communs développés
+initialement au sein des groupes GRIIS et Μητις.
+Ces environnements comprennent la définition de types de base, de routines facilitant
+la vérification d’assertion, le paramétrage interne des bases de données et
+l’importation-exportation de données.
+
+Le développement d’un nouvel environnement SQL commun a pour objectif de prendre
+en compte les besoins du CoLOED (en sus de ceux des groupes GRIIS et Μητις)
+tout en se conformant aux standards STD-ENV-01, STD-ENV-02, STD-SQL-01 et
+STD-SQL-02 publiés par le CoLOED en aout 2024.
+
+include::{rep_format}/MISE_EN_GARDE.adoc[]
+Le présent document est en cours d’élaboration et, par conséquent,
+peut contenir des erreurs.
+
+include::{rep_format}/HISTO_debut.adoc[]
+
+| 2024-08-07
+| LL
+| Ébauche initiale.
+
+include::{rep_format}/HISTO_fin.adoc[]
+
+// Table des matières du document
+toc::[]
+
+// Corps du document
+<<<
+[introduction]
+== Introduction
+[.red]#*_À rédiger_*#
+
+== Inventaire des mandats
+
+=== FLUX : Paraméter les flux de sortie des scipts
+Le mandat est en cours de définition.
+
+.Contexte
+Les différents scripts de construction et de test des composants.
+
+
+.Présentation
+Les résultat d'un script doit pouvoir
+* être consulté rapidement par un humain,
+* se prêter à un traitement automatisé afin d'aiguiller une séquence de traitement
+  (lors de l'intégration coninue, par exemple),
+* soutenir un processus d'analyse en cas de problème et donc comprendre de
+  nombreuses informations susceptibles d'être utlies, mais non pertinentes dans
+  les deux premiers.
+
+Les trois artéfacts suivants devraient donc pouvoir être produits (commodément)
+par les scripts :
+* Le bilan (bil)
+  - les seules notices, mises en garde (MEG), erreurs (ERR) et exceptions (EXC)
+    à raison d'une ligne chacune (incluant le message approprié et l'estampille temporelle);
+  - les notices sont subdivisées en information (INF), note positive (POS) et négative (NEG).
+* La synthèse (syn)
+  - la chronolgie des étapes franchies à raison de deux lignes chacune
+    (les informations au début, les informations à la fin)
+    encadrant les lignes du bilan produite durant l'étape
+* Le journal (log)
+  - entrelacement chronologique des diverses informations, messages et résultats
+    produits au sein de la synthèse.
+
+.Objectifs
+Voir Présentation
+
+.Hypothèses et contraintes
+* ?
+
+.Artéfacts et résultats attendus
+* Une note technique décrivant commment produire de tels scripts
+* Les fonctions requises pour produire de tels scripts
+* Un exemple appliqué à CoSQL.
+
+.Étapes
+1. aaa
+2. bbb
+3. ccc
+
+
+=== ALGI : Opérateurs d’Allen : comparer mise en oeuvre arithmétique versus GiST
+
+* Comparer les deux mises en oeuvre
+
+=== XXXX : Aperçu d'une description tyique de mandat
+
+.Contexte
+xxxx
+
+.Présentation
+xxxx
+
+.Objectifs
+* Objectif 1.
+* Objectif...
+* Objectif n.
+
+.Hypothèses et contraintes
+* Hypothèse 1.
+* Hypothèse...
+* Hypothèse n.
+
+.Artéfacts et résultats attendus
+* Artéfact 1.
+* Artéfact...
+* Artéfact n.
+
+.Étapes
+1. aaa
+2. bbb
+3. ccc
+
+== Planification et suivi
+
+[%autowidth]
+.Table Mandats
+|===
+| Mandat | resp.| début      | EP | EE | FE         | FP         | commentaire
+
+| FLUX   | LL01 | 2024-08-05 |  ? |  ? | 2022-08-10 | 2022-08-10 | ..
+| XXXX   | ???? | aaaa-mm-jj |  ? |  ? | aaaa-mm-jj | aaaa-mm-jj | ..
+|===
+
+Légende::
+* EP : effort planifié (en heures-personnes)
+* EE : effort effectif (en heures-personnes)
+* FE : fin planifiée (date)
+* EP : fin effective (date)
+
+[.red]#*_À compléter_*#
+
+[conclusion]
+== Conclusion
+[.red]#*_À rédiger_*#
+
+[glossary]
+== Glossaire
+
+terme::
+  définition
+
+[.red]#*_À compléter_*#
+
+include::{rep_format}/{format_effectif}_en-pied.adoc[]
